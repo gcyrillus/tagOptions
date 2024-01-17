@@ -1,0 +1,71 @@
+	section a.aWizard {
+		display:inline;
+		padding:0 1em;
+		margin:0 1em;
+		line-height:0.5;
+	}
+	div.scroller table {
+		width: 100%;
+		background:#fafafa
+	}
+	div.scroller table thead {
+		background:#E8E8E8;
+	}
+	div.scroller  #taglist :is(th, td)  {
+		box-shadow:inset 0 0 1px gray;
+		vertical-align: middle!important;
+		padding:0;
+		height:auto;
+	}
+	div.scroller td a {
+		margin: 0 .25em;
+		background:#6AA6CE;
+		color:white;
+		padding:0.1em .25em;
+		border-radius:4px;
+	}
+	div.scroller td .tag:empty {
+			background: #FF634740;
+			text-align:center;
+				box-shadow:inset 0 0 1px white;
+	}
+	div.scroller td .tag:empty:before{
+		content:'no data';
+		color:white;
+		padding:0 1em;
+	}
+	div.scroller .ellipsis , div.scroller .tag {
+		white-space: nowrap;
+		max-width:14em;
+	  overflow:hidden;
+		text-overflow:ellipsis;
+		margin:0.5em 
+	}
+	div.scroller :nth-child(6) .tag {
+		direction: rtl;
+	}
+	div.scroller {
+		overflow:auto;
+	}
+		
+	@media screen and (max-width:1020px) {
+		div.scroller table {
+			writing-mode:vertical-lr;
+			border:none;
+			box-shadow:inset 0 0 1px  silver;
+			table-layout:fixed;
+			width:100%;
+			position:relative;
+		}
+		div.scroller table tr {
+			writing-mode:horizontal-tb;
+			border-left:double
+		}
+		div.scroller table thead {
+			position:sticky;
+			left:0;
+		}
+		div.scroller .ellipsis {
+			max-width:20vw;
+		}
+	}

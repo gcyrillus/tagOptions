@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<document>
+	<title><![CDATA[tagOptions]]></title>
+	<author><![CDATA[G.Cyrille]]></author>
+	<version>bêta 0.2</version>
+	<date>2024-17-12</date>
+	<site>https://pluxopolis.net</site>
+	<description><![CDATA[Donne la possibilité d'ajouter aux tags , mots clés, 
+		une description, 
+		une image d'accroche 
+		et de remplir les champs meta 'description' et 'keywords'.
+		]]></description>
+	<scope></scope>
+	</document>
