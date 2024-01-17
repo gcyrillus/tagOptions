@@ -30,7 +30,7 @@ Ajoute aux tag une description, une image d'accroche et l'édition des meta tag 
 					<h2>Hook et édition du thème</h2>
 					<p>Cette fonction est simmilaire à celle des description et image des catégorie, elle s'insere logiquement entre le fil d'Ariane et la liste des articles.
 					</p>
-					<p>Reperer cette portion de code dans <code>themes/nom_du_theme_actif/tags.php</p>
+					<p>Reperer cette portion de code dans <code>themes/nom_du_theme_actif/tags.php</code></p>
 					<pre><code>&lt;ul class="repertory menu breadcrumb">
     &lt;li>&lt;a href="&lt;?php $plxShow->racine() ?>">&lt;?php $plxShow->lang('HOME'); ?>&lt;/a>&lt;/li>
     &lt;li>&lt;?php $plxShow->tagName(); ?>&lt;/li>
